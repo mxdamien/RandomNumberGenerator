@@ -70,6 +70,7 @@
         android:id="@+id/generateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="generateNum"
         android:text="@string/generateBtnText"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
