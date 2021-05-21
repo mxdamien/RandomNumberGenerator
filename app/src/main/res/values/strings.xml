@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Random Number Generator</string>
+    <string name="app_name">RNG</string>
     <string name="displayText">0</string>
     <string name="textview1Text">Min Value:</string>
     <string name="textview2Text">Max Value:</string>
