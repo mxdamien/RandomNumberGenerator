@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
             int min = Integer.parseInt(minTextView.getText().toString());
             int max = Integer.parseInt(maxTextView.getText().toString());
 
-            //If the input is valid i.e. min < max then generate the random num else display error msg
-            if (min < max) {
+            //If the input is valid i.e. min <= max then generate the random num else display error msg
+            if (min <= max) {
                 int randomVal = (int) (Math.random() * (max - min + 1) + min);
                 displayView.setText(Integer.toString(randomVal));
             } else {
